@@ -36,5 +36,15 @@ namespace HomeTaskFrameWork.Utilities
         {
             return WebElement.Displayed;
         }
+        internal string GetElementText()
+        {
+            return WebElement.Text;
+        }
+        internal void ClearText()
+        {
+            WebElement.Click();
+            WebElement.SendKeys(Keys.Control + "a");
+            WebElement.SendKeys(Keys.Delete);
+        }
     }
 }

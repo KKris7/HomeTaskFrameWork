@@ -78,7 +78,7 @@ namespace HomeTaskFrameWork.Features
 #line 5
 #line hidden
 #line 6
- testRunner.Given("I am on the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("The user is on the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
         }
         
@@ -220,10 +220,10 @@ this.ScenarioInitialize(scenarioInfo);
 this.FeatureBackground();
 #line hidden
 #line 22
- testRunner.When(string.Format("I enter a \'{0}\' in the search input field", searchWord), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When(string.Format("The user enter a \'{0}\' in the search input field", searchWord), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 23
- testRunner.And("I press Enter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("The user press Enter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 24
  testRunner.Then(string.Format("the search results page should display \'{0}\' results", searchWord), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
